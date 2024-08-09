@@ -1,0 +1,64 @@
+body{
+  color: rgb(156,36,156);
+  background: black; 
+  margin:20px;
+}
+
+header{
+  font-size: 80px;
+  color: pink;
+  border-bottom: solid 2px #C370D1;
+  margin: 20px; 
+  padding: 20px;
+  display: relative;
+  font-family: "Libre Barcode 128 Text", system-ui;
+}
+
+.inicio{
+  background: rgb(0,0,0);
+  font-size: 20px;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+   font-family: "Nosifer", sans-serif;
+  
+  
+  
+  .entrada{
+    margin-right: 30px;
+    
+  }
+  
+  img{
+    height:200px;
+  }
+  
+  .clipes{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+  }
+
+  .outros{
+     font-family: "Nosifer", sans-serif;
+    font-size: 30px;
+    padding-left: 20px:
+      padding-right: 20px;
+
+  }
+  
+  .outro img{
+    opacity: 0.5;
+  }
+  
+  
+  .outros img:hover{
+    opacity: 1.0;
+    border: solid 3px purple;
+    border-radius: 20px;
+    
+  }
+  
+  
+  
+  
